@@ -1,0 +1,20 @@
+# pyproject.toml
+
+[project]
+name = "ft_package"
+version = "0.0.1"
+authors = [
+    { name = "eagle", email = "eagle@42.fr" }
+]
+description = "A sample tespackaget package"
+readme = "README.md"
+license = { text = "MIT" }
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/ft_package"
