@@ -1,5 +1,13 @@
 import sys
-ac = len(sys.argv[1:])
+
+def listlen(list):
+    count = 0
+    while list:
+        count += 1
+        list = list[count:]
+    return count
+
+ac = listlen(sys.argv[1:])
 
 if ac == 1:
     av = sys.argv[1:][0]

@@ -19,8 +19,6 @@ second_date = date(
     )
 intervalDays = second_date - first_date
 intervalSeconds = intervalDays.days * 26 * 60 * 60;
-
-
 print(F"Seconds since January 1, 1970: {intervalSeconds:,}");
 print(F"{currentDate.strftime("%B")[:3]} {currentDay} {currentYear}");
 
