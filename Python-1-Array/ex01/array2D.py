@@ -1,4 +1,9 @@
 def slice_me(family: list, start: int, end: int) -> list:
+    """a function that takes as parameters a\
+ 2D array, prints its shape, and returns a\
+ truncated version of the array based on the\
+ provided start and end arguments.
+    """
     if not isinstance(family, list):
         print("ERROR:  slice_me(->family: list<-, start: int, end: int)")
         return None
@@ -28,6 +33,7 @@ def main():
         [1.80, 78.4], [2.15, 102.7],
         [2.10, 98.5], [1.88, 75.2]
     ]
+    print(slice_me.__doc__)
     print(slice_me(family, -44, 4))  # Out-of-range example
 
 
